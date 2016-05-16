@@ -1,0 +1,14 @@
+body {
+	   background-color: red;
+	 }
+#header-nav {
+	background-color: yellow;
+	border: 0;
+}
+#nav-list {
+	background-color: orange;
+	text-align: center;
+}
+#alignMenu {
+	margin-top: 85px;
+}
