@@ -120,9 +120,8 @@ function buildAndShowHomeHTML (categories) {
 	  for (var i = 0; i < categories.length; i++) {
 	    var html = homeHtmlUrl;
 	    var name = "'" + chosenCategoryShortName + "'";
-	    html = 
+	    homeHtmlToInsertIntoMainPage = 
 	    insertProperty(html, '{{randomCategoryShortName}}', name);
-	  	homeHtmlToInsertIntoMainPage=html;
 	  }
       
       // TODO: STEP 4: Insert the the produced HTML in STEP 3 into the main page
