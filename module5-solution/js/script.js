@@ -123,7 +123,6 @@ function buildAndShowHomeHTML (categories) {
 	    html = 
 	      insertProperty(html, '{{randomCategoryShortName}}', name);
 	  	var homeHtmlToInsertIntoMainPage = html;
-	  	return homeHtmlToInsertIntoMainPage;
 	  }
       
       // TODO: STEP 4: Insert the the produced HTML in STEP 3 into the main page
