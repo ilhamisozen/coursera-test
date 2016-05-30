@@ -116,8 +116,7 @@ function buildAndShowHomeHTML (categories) {
       // Hint: you need to surround the chosen category short name with something before inserting
       // it into the home html snippet.
       // 
-      var L = 
-	  for (var i = 0; i < categories.length; i++) {
+	 for (var i = 0; i < categories.length; i++) {
 	    // Insert category values
 	    var html = homeHtml;
 	    var name = "'" + chosenCategoryShortName + "'";
