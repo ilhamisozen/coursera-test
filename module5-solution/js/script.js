@@ -117,7 +117,7 @@ function buildAndShowHomeHTML (categories) {
       // it into the home html snippet.
       // 
       var L = "'" + chosenCategoryShortName + "'";
-      var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml,$dc.loadMenuItems('{{randomCategoryShortName}}'),$dc.loadMenuItems(L));
+      var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml,'{{randomCategoryShortName}}',$dc.loadMenuItems(L));
       
       // TODO: STEP 4: Insert the the produced HTML in STEP 3 into the main page
       // Use the existing insertHtml function for that purpose. Look through this code for an example
